@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/version', (req, res) => {
-    res.send('The version is 1.0.0.');
+    res.send('The version is 1.0.1.');
 });
 
 app.listen(PORT, HOST);

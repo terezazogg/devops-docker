@@ -9,11 +9,11 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-    res.send('Hello World. DevOps-Docker Example. Jenkins Build/Deploy-Test');
+    res.send('DevOps, Docker and Jenkins are cool!');
 });
 
 app.get('/version', (req, res) => {
-    res.send('The version is 1.0.1.');
+    res.send('The version is 1.1.0.');
 });
 
 app.listen(PORT, HOST);
